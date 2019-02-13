@@ -11,6 +11,25 @@
 - [Youtube Channels](#Youtube)
 
 
+## General
+
+* Comparing
+
+At the very very least, compare laptops based on their specs, Notebookcheck data, and performance
+
+
+
+* **Memory**
+
+If you're using anything remotely capable(i.e. most laptops above $500), dual channel memory is extremely recommended.
+
+Furthermore, pay attention to the CAS Latency(for e.g. CL17) of the RAM. Many DIMMs are advertised as CL1x, but actually end up having a timing of something like 1x-1x-4x(!). The lower the latency the better.
+
+* **CPU**
+
+Ryzen Mobile itself is decent, but the drivers are universally poor, and they unfortunately tend to have less performance per watt than Intel alternatives, i.e. less battery life.
+
+Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 8250U, are NOT meant for serious performance in any way. Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. These are NOT meant to be 15W CPUs, they are more or less nerfed i7 7700HQs.
 
 
 
@@ -26,10 +45,16 @@ Basically none of the HP gaming laptops, such as the Omen line but also the chea
 
 * **Microsoft Surface Line**
 
-They are built decently, but have literally **zero** repairability. Their warranty is literally to replace the unit. Furthermore, they are often overpriced, particularly the Surface Book line.
+They are built decently, but have literally **zero** repairability. Their warranty is literally to replace the unit. Furthermore, they are overpriced, particularly the Surface Book line.
+
+* **Low End MSI units and the GS line**
+
+The GS line is heavily featured and praised online, but cannot cool its components, and as result, throttles. Low end MSI units such as the GV line should also be avoided, unless at a insanely low price, while understanding that you will get poor quality.
+
+The MSI lines go, in increasing price & quality: GV => GL => GF=> GP => GE => GS (thin) => GT (big)
 
 
-Source: self and SuggestALaptop Discord
+
 
 
 
@@ -46,3 +71,6 @@ Source: self and SuggestALaptop Discord
 ## Youtube
 
 Nothing here at the moment
+
+
+Source: self, Notebookcheck and SuggestALaptop Discord
