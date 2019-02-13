@@ -6,6 +6,10 @@
 
 
 - [General](#General)
+  - [Memory](#Memory)
+  - [CPUs](#CPUs)
+  - [GPUs](#GPUs)
+  - [eGPUs](#eGPUs)
 - [Not Recommended](#Not-Recommended)
 - [Websites](#websites)
 - [Youtube Channels](#Youtube)
@@ -13,7 +17,7 @@
 
 ## General
 
-* Comparing
+#### Comparing
 
 At the very very least, compare laptops based on their specs, Notebookcheck data, and performance
 
@@ -33,7 +37,7 @@ Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 7200U, are NOT m
 
 Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. Units that are powered decently are often unable to cool these CPUs. These are NOT meant to be '15W' CPUs; they are more or less nerfed i7 7700HQs.
 
-Furthermore, very few units are able to make use of an 8th generation ULV i7, the i7 8550U, and usually there is no reason to choose a i7 8550U over a i5 8250U, aside from potentially higher resale value(due to the 'i7' branding).
+Furthermore, very few units are able to make use of an 8th generation ULV i7, the i7 8550U, and usually there is no reason to choose a i7 8550U over a i5 8250U, aside from better IPC and potentially higher resale value(due to the 'i7' branding).
 
 A note on the i9 8950HK: There are very few units that will be able to cool this CPU *and* be able to overclock it. There is also a significant price gap for a comparatively small performance jump(without overclock); you are often paying for the 'i9' name.
 
@@ -47,7 +51,7 @@ If you are considering a laptop with a lower end GPU, particularly the MX150 and
 
 An eGPU is often a niche product.
 
-They lose performance while converting the PCIe signal to a TB3 signal, and you lose a portion of the GPU's complete performance due to this. GPUs above a GTX 1060 or RX 580 will suffer from more impactful performance losses, and will bottleneck more and more. Furthermore, due to the latency in the connection, *all* GPUs lose around 10% of their full performance. This is also assuming that an external display(a monitor/TV) is being used, as using an eGPU with an internal display further bottlenecks the interface. Some ultrabooks may also come with 2 lane TB3 ports, making internal display acceleration perform much much worse(but has little effect on external display use).
+They lose performance while converting the PCIe signal to a TB3 signal, and you lose a portion of the GPU's complete performance due to this. GPUs above a GTX 1060 or RX 580 will suffer from more impactful performance losses, and will bottleneck more and more. Furthermore, due to the latency in the connection, *all* GPUs lose around 10% of their full performance when being used as a TB3 eGPU. This is also assuming that an external display(a monitor/TV) is being used, as using an eGPU with an internal display further bottlenecks the interface. Some ultrabooks may also come with 2 lane TB3 ports, making internal display acceleration perform much much worse(but has little effect on external display use).
 
 Furthermore, they cost much more than a gaming laptop, e.g. a good ultrabook and eGPU will cost at around $1500, at which price you can often find better alternatives.
 
