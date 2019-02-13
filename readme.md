@@ -19,13 +19,13 @@ At the very very least, compare laptops based on their specs, Notebookcheck data
 
 
 
-* **Memory**
+### **Memory**
 
 If you're using anything remotely capable(i.e. most laptops above $500), dual channel memory is extremely recommended.
 
 Furthermore, pay attention to the CAS Latency(for e.g. CL17) of the RAM. Many DIMMs are advertised as CL1x, but actually end up having a timing of something like 1x-1x-4x(!). The lower the latency the better.
 
-* **CPUs**
+### **CPUs**
 
 Ryzen Mobile itself is decent, but the drivers are universally poor, and they unfortunately tend to have less performance per watt than Intel alternatives, i.e. less battery life.
 
@@ -37,13 +37,13 @@ Furthermore, very few units are able to make use of an 8th generation ULV i7, th
 
 A note on the i9 8950HK: There are very few units that will be able to cool this CPU *and* be able to overclock it. There is also a significant price gap for a comparatively small performance jump(without overclock); you are often paying for the 'i9' name.
 
-* **GPUs**
+### **GPUs**
 
 Max Q GPUs from Nvidia, particularly the high end SKUs, are usually extremely power limited to be able to perform within the often limited space in thinner laptops. There is a [large performance disparity](https://www.notebookcheck.net/We-benchmark-the-mobile-RTX-2060-2070-and-2080-Max-Q-and-compare-them-to-the-desktop-RTX-2080-and-GTX-1080.402036.0.html) between desktop/laptop GPUs and Max Q variants of the same card, and moreover, sometimes the Max Q cards themselves have a [significant performance disparity](https://www.notebookcheck.net/Not-created-equal-Razer-Blade-15-RTX-2070-Max-Q-is-10-to-15-percent-faster-than-the-Gigabyte-Aero-15-X9.406211.0.html), either due to thermals or varying boost clocks. If you are considering a laptop with a Max Q GPU, ensure that it performs far above average.
 
 If you are considering a laptop with a lower end GPU, particularly the MX150 and GTX 1050, ensure that the performance is more than adequate. GPUs are often the fastest component to become dated due to the increasing requirements of games.
 
-* **eGPUs**
+### **eGPUs**
 
 An eGPU is often a niche product.
 
@@ -51,7 +51,7 @@ They lose performance while converting the PCIe signal to a TB3 signal, and you 
 
 Furthermore, they cost much more than a gaming laptop, e.g. a good ultrabook and eGPU will cost at around $1500, at which price you can often find better alternatives.
 
-However, direct and/or proprietary connections, such as those using EC, M.2 NGFF, Alienware's Graphics Adapter do maintain much closer to the full performance of the GPU. If you can accept that you'll likely be paying more for less, and that the use case/portability of an eGPU is worth it to you, then an eGPU is a decent product. 
+However, direct and/or proprietary connections, such as those using EC, M.2 NGFF, Alienware's Graphics Adapter do maintain much closer to the full performance of the GPU. If you can accept that you'll likely be paying more for less, and that the use case/portability of an eGPU is worth it to you, then an eGPU is a decent product.
 
 ## Not Recommended
 
