@@ -25,12 +25,21 @@ If you're using anything remotely capable(i.e. most laptops above $500), dual ch
 
 Furthermore, pay attention to the CAS Latency(for e.g. CL17) of the RAM. Many DIMMs are advertised as CL1x, but actually end up having a timing of something like 1x-1x-4x(!). The lower the latency the better.
 
-* **CPU**
+* **CPUs**
 
 Ryzen Mobile itself is decent, but the drivers are universally poor, and they unfortunately tend to have less performance per watt than Intel alternatives, i.e. less battery life.
 
-Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 8250U, are NOT meant for serious performance in any way. Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. These are NOT meant to be 15W CPUs, they are more or less nerfed i7 7700HQs.
+Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 7200U, are NOT meant for extended performance in any way.
 
+Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. Units that are powered decently are often unable to cool these CPUs. These are NOT meant to be '15W' CPUs; they are more or less nerfed i7 7700HQs.
+
+Furthermore, very few units are able to make use of an 8th generation ULV i7, the i7 8550U, and usually there is no reason to choose a i7 8550U over a i5 8250U, aside from potentially higher resale value(due to the 'i7' branding).
+
+A note on the i9 8950HK: There are very few units that will be able to cool this CPU *and* be able to overclock it. There is also a significant price gap for a comparatively small performance jump(without overclock); you are often paying for the 'i9' name.
+
+* **GPUs**
+
+Max Q GPUs from Nvidia, particularly the high end SKUs, are usually extremely power limited to be able to perform without...melting. There is a [large performance disparity](https://www.notebookcheck.net/We-benchmark-the-mobile-RTX-2060-2070-and-2080-Max-Q-and-compare-them-to-the-desktop-RTX-2080-and-GTX-1080.402036.0.html) between desktop/laptop GPUs and Max Q variants of the same card, and moreover, sometimes the Max Q cards themselves have a [significant performance disparity](https://www.notebookcheck.net/Not-created-equal-Razer-Blade-15-RTX-2070-Max-Q-is-10-to-15-percent-faster-than-the-Gigabyte-Aero-15-X9.406211.0.html), either due to thermals or varying boost clocks. If you are considering a laptop with a Max Q GPU, ensure that it performs far above average.
 
 
 ## Not Recommended
