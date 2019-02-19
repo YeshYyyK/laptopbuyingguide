@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-
+- [Preface](#General)
 - [General](#General)
   - [Memory](#Memory)
   - [CPUs](#CPUs)
@@ -15,35 +15,36 @@
 - [Youtube Channels](#Youtube)
 
 
+
 ## General
 
 #### Comparing
 
-At the very very least, compare laptops based on their specs, Notebookcheck data, and performance
+At the very very least, compare laptops based on their specs, Notebookcheck data, and performance, quality relative to their price.
 
 
 
 ### **Memory**
 
-If you're using anything remotely capable(i.e. most laptops above $500), dual channel memory is extremely recommended.
+If you're using anything remotely capable(i.e. most laptops above $500), dual channel memory is extremely recommended. Higher end units, such as those with a GTX 1060, will bottleneck during gameplay without dual channel memory.
 
-Furthermore, pay attention to the CAS Latency(for e.g. CL17) of the RAM. Many DIMMs are advertised as CL1x, but actually end up having a timing of something like 1x-1x-4x(!). The lower the latency the better.
+Furthermore, pay attention to the CAS Latency(for e.g. CL17) of the RAM. Many DIMMs are advertised as CL1x, but actually end up having a timing of something like 1x-1x-4x(!). The lower the latency the better. Remember that you can likely swap out the DIMMs, but if you are considering a unit with soldered memory, this is important.
 
 ### **CPUs**
 
 Ryzen Mobile itself is decent, but the drivers are universally poor, and they unfortunately tend to have less performance per watt than Intel alternatives, i.e. less battery life.
 
-Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 7200U, are NOT meant for extended performance in any way.
+Intel ULV CPUs, denoted by a 'U' at the end of the SKU, e.g. i5 7200U, are NOT meant for extended performance. Do not buy a laptop with a ULV CPU if you prioritize performance. There are very few units that can both power and sustain ULV chips at a higher wattage.
 
-Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. Units that are powered decently are often unable to cool these CPUs. These are NOT meant to be '15W' CPUs; they are more or less nerfed i7 7700HQs.
+Intel 8th generation ULV CPUs are almost always power limited, and cannot perform to their potential. and there are only a few units that actually power them fully. Units that are powered decently are often unable to cool these CPUs. These are NOT meant to be '15W' CPUs; they are more or less nerfed/gimped i7 7700HQs.
 
 Furthermore, very few units are able to make use of an 8th generation ULV i7, the i7 8550U, and usually there is no reason to choose a i7 8550U over a i5 8250U, aside from better IPC and potentially higher resale value(due to the 'i7' branding).
 
-A note on the i9 8950HK: There are very few units that will be able to cool this CPU *and* be able to overclock it. There is also a significant price gap for a comparatively small performance jump(without overclock); you are often paying for the 'i9' name.
+A note on the i9 8950HK: There are very few units that will be able to cool this CPU *and* be able to overclock it. There is also usually a significant price gap for a comparatively small performance jump(without overclock); you are often paying for the 'i9' name.
 
 ### **GPUs**
 
-Max Q GPUs from Nvidia, particularly the high end SKUs, are usually extremely power limited to be able to perform within the often limited space in thinner laptops. There is a [large performance disparity](https://www.notebookcheck.net/We-benchmark-the-mobile-RTX-2060-2070-and-2080-Max-Q-and-compare-them-to-the-desktop-RTX-2080-and-GTX-1080.402036.0.html) between desktop/laptop GPUs and Max Q variants of the same card, and moreover, sometimes the Max Q cards themselves have a [significant performance disparity](https://www.notebookcheck.net/Not-created-equal-Razer-Blade-15-RTX-2070-Max-Q-is-10-to-15-percent-faster-than-the-Gigabyte-Aero-15-X9.406211.0.html), either due to thermals or varying boost clocks. If you are considering a laptop with a Max Q GPU, ensure that it performs far above average.
+Max Q GPUs from Nvidia, particularly the higher end SKUs, such as the GTX/RTX xx60, xx70 and xx80 are usually extremely power limited to be able to perform within the often limited space in thinner laptops. There is a [large performance disparity](https://www.notebookcheck.net/We-benchmark-the-mobile-RTX-2060-2070-and-2080-Max-Q-and-compare-them-to-the-desktop-RTX-2080-and-GTX-1080.402036.0.html) between desktop/laptop GPUs and Max Q variants of the same card, and moreover, sometimes the Max Q cards themselves have a [significant performance disparity](https://www.notebookcheck.net/Not-created-equal-Razer-Blade-15-RTX-2070-Max-Q-is-10-to-15-percent-faster-than-the-Gigabyte-Aero-15-X9.406211.0.html), either due to thermals or varying boost clocks. If you are considering a laptop with a Max Q GPU, ensure that it performs far above average.
 
 If you are considering a laptop with a lower end GPU, particularly the MX150 and GTX 1050, ensure that the performance is more than adequate. GPUs are often the fastest component to become dated due to the increasing requirements of games.
 
@@ -51,17 +52,17 @@ If you are considering a laptop with a lower end GPU, particularly the MX150 and
 
 An eGPU is often a niche product.
 
-They lose performance while converting the PCIe signal to a TB3 signal, and you lose a portion of the GPU's complete performance due to this. GPUs above a GTX 1060 or RX 580 will suffer from more impactful performance losses, and will bottleneck more and more. Furthermore, due to the latency in the connection, *all* GPUs lose around 10% of their full performance when being used as a TB3 eGPU. This is also assuming that an external display(a monitor/TV) is being used, as using an eGPU with an internal display further bottlenecks the interface. Some ultrabooks may also come with 2 lane TB3 ports, making internal display acceleration perform much much worse(but has little effect on external display use).
+They lose performance while converting the PCIe signal to a TB3 signal, and you lose a portion of the GPU's complete performance due to this. GPUs above a GTX 1060 or RX 580 will suffer from more impactful performance losses, and will bottleneck more and more. Furthermore, due to the latency in the connection, *all* GPUs lose around 10% of their full performance when being used as a TB3 eGPU. This is also assuming that an external display(a monitor/maybe TV) is being used, as using an eGPU with an internal display further bottlenecks the interface. Some ultrabooks may also come with 2 lane TB3 ports, making internal display acceleration perform much much worse(but has little effect on external display use).
 
-Furthermore, they cost much more than a gaming laptop, e.g. a good ultrabook and eGPU will cost at around $1500, at which price you can often find better alternatives.
+Furthermore, they cost much more than a gaming laptop, e.g. a good ultrabook and eGPU will cost at around $1500, at which price you can often find better alternatives. Moreover, the overall bottlenecking will be worse with laptops that are thermally limited, or other cases where the CPU may bottleneck the GPU, such as being power limited(or just using a weak laptop with an eGPU). Most eGPUs are also relatively large, which limits the whole purpose of one; portability. In many cases it's better to build a PC than go with an eGPU setup.
 
-However, direct and/or proprietary connections, such as those using EC, M.2 NGFF, Alienware's Graphics Adapter do maintain much closer to the full performance of the GPU. If you can accept that you'll likely be paying more for less, and that the use case/portability of an eGPU is worth it to you, then an eGPU is a decent product.
+However, direct and/or proprietary connections, such as those using EC, M.2 NGFF, Alienware's Graphics Adapter do maintain much closer to the full performance of the GPU. If you can accept that you'll likely be paying more for less, with the case of TB3 eGPUs and that the use case/portability of an eGPU is worth it to you, then an eGPU is a decent product.
 
 ## Not Recommended
 
 * **Razer Laptops**
 
-The 14" Razer Blade laptops suffer from extremely poor thermals and hence thermal throttling. The newer 15" Blades, while they are cooled somewhat decently, and do not thermal throttle, they suffer from awful quality control(i.e. being delivered broken), to the point where Amazon has had to stop selling them.
+The 14" Razer Blade laptops suffer from extremely poor thermals and hence thermal throttling. The newer 15" Blades, while they are cooledk decently, and do not thermal throttle, they suffer from awful quality control(i.e. being delivered broken), to the point where Amazon has had to stop selling them.
 
 * **HP Gaming Laptops**
 
@@ -69,7 +70,7 @@ Basically none of the HP gaming laptops, such as the Omen line but also the chea
 
 * **Microsoft Surface Line**
 
-They are built decently, but have literally **zero** repairability. Their warranty is literally to replace the unit. Furthermore, they are overpriced, particularly the Surface Book line.
+They are built decently, but have literally **zero** repairability. Their warranty is literally to replace the unit. Furthermore, they are overpriced, particularly the Surface Book line. They also haven't switched to USB C.
 
 * **Low End MSI units and the older GS line**
 
