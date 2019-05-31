@@ -16,7 +16,7 @@
 
 ## Preface
 
-Why is it important to
+wip
 
 ## General
 
@@ -64,7 +64,7 @@ However, direct and/or proprietary connections, such as those using EC, M.2 NGFF
 
 * **Razer Laptops**
 
-The 14" Razer Blade laptops suffer from extremely poor thermals and hence thermal throttling. The newer 15" Blades, while they are cooledk decently, and do not thermal throttle, they suffer from awful quality control(i.e. being delivered broken), to the point where Amazon has had to stop selling them.
+The 14" Razer Blade laptops suffer from extremely poor thermals and hence thermal throttling. The newer 15" Blades, while they are cooled decently, and do not thermal throttle, they suffer from awful quality control(i.e. being delivered broken), to the point where Amazon has had to stop selling them.
 
 * **HP Gaming Laptops**
 
