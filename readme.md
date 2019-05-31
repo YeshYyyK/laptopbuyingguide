@@ -14,7 +14,9 @@
 - [Websites](#websites)
 - [Youtube Channels](#Youtube)
 
+## Preface
 
+Why is it important to
 
 ## General
 
@@ -70,7 +72,7 @@ Basically none of the HP gaming laptops, such as the Omen line but also the chea
 
 * **Microsoft Surface Line**
 
-They are built decently, but have literally **zero** repairability. Their warranty is literally to replace the unit. Furthermore, they are overpriced, particularly the Surface Book line. They also haven't switched to USB C.
+They are built somewhat decently, but have literally **zero** repairability, and sometimes have issues,. Their warranty for repairing is literally to replace the unit, which means that any potential issues can appear again. Furthermore, they are overpriced, particularly the Surface Book line. They also haven't switched to USB C.
 
 * **Low End MSI units and the older GS line**
 
